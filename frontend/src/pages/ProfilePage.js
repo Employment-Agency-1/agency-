@@ -27,14 +27,16 @@ const ProfilePage = () => {
     <div>
       <h2>Profile Page</h2>
       {profiles.map(profile => (
-        <div key={profile.id}>
-          <img src={profile.image} alt={`${profile.name}'s profile`} />
-          <p>Name: {profile.name}</p>
-          <p>Email: {profile.email}</p>
-          <p>Age: {profile.age}</p>
-          <p>Phone: {profile.phone}</p>
-          <p>Specialty: {profile.specialty}</p>
-          <p>Years of Experience: {profile.yearsOfExperience}</p>
+        <div key={profile.id} className="profile-card">
+          <img src={profile.image} alt={`${profile.name}'s profile`} className="profile-image" />
+          <div className="profile-info">
+            <p><strong>Name:</strong> {profile.name}</p>
+            <p><strong>Email:</strong> {profile.email}</p>
+            <p><strong>Age:</strong> {profile.age}</p>
+            <p><strong>Phone:</strong> {profile.phone}</p>
+            <p><strong>Specialty:</strong> {profile.specialty}</p>
+            <p><strong>Years of Experience:</strong> {profile.yearsOfExperience}</p>
+          </div>
         </div>
       ))}
     </div>
