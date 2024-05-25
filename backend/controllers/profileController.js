@@ -1,6 +1,6 @@
 
 const { Profile } = require('../models');
-
+//create a new user prfile
 const createProfile = async (req, res) => {
   const { name, email, image, age, phone, specialty, yearsOfExperience } = req.body;
 
@@ -12,7 +12,7 @@ const createProfile = async (req, res) => {
     res.status(500).json({ error: 'Failed to create profile' });
   }
 };
-
+// get all profiles
 const getProfiles = async (req, res) => {
   try {
     const profiles = await Profile.findAll();
