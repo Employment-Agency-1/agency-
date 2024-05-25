@@ -1,0 +1,63 @@
+
+.container {
+  text-align: center;
+  padding: 20px;
+    background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.navLink {
+  font-size: 20px;
+  /* background-color: #19d33b; */
+  background-color: #2ff77c;
+  color: rgb(0, 0, 111);
+  padding: 10px 20px;
+  margin: 20px 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #19d33b;
+}
+
+.heading {
+  font-size: 28px; 
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #36138e;
+}
+
+.description {
+  font-size: 24px; 
+  margin-bottom: 20px;
+  color: #86139a;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.welcomeImage {
+  width: 500px; 
+  height: auto; 
+  margin-bottom: 20px; 
+}

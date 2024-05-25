@@ -1,17 +1,16 @@
-// app.js
+
 const express = require('express');
-const bodyParser = require('body-parser');
 const authRoutes = require('./routes/authRoutes');
 const companyRoutes = require('./routes/companyRoutes');
-const profileRoutes = require('./routes/profileRoutes'); // Import profileRoutes
+const profileRoutes = require('./routes/profileRoutes');
 const sequelize = require('./config/database');
-const User = require('./models/user');
-const Company = require('./models/company');
-const Profile = require('./models/profile'); 
+// const User = require('./models/user');
+// const Company = require('./models/company');
+// const Profile = require('./models/profile'); 
 
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use('/api', authRoutes);
 app.use('/api', companyRoutes);
 app.use('/api', profileRoutes); 

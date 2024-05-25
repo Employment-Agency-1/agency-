@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -11,7 +9,7 @@ import CompanyPage from './pages/CompanyPage';
 import ProfilePage from './pages/ProfilePage';
 import AddProfile from './pages/AddProfile'
 import AllUsers from './pages/AllUsers';
-import Home from './pages/Home';
+import Home from './pages/Home.js';
 import ApplyList from './pages/ApplyList';
 
 function App() {

@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titletop{
+    color: rgb(51, 61, 61);
+  }
+  .profileCard {
+    background-image: url("https://media2.giphy.com/media/2tNvsKkc0qFdNhJmKk/200w.gif?cid=82a1493bxdvq2j57rp1eupwtdu7ueq793cnlcorho0xqemd0&ep=v1_gifs_related&rid=200w.gif&ct=g");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .profilePhotoContainer {
+    margin-bottom: 20px;
+  }
+  
+  .profilePhoto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .placeholderPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ipt {
+    margin-top: 10px;
+  }
+  
+  .profileName,
+  .profileContact {
+    margin: 10px 0;
+  }
+  
+  .saveButton,
+  .uploadButton {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .saveButton:hover,
+  .uploadButton:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #4CAF50; 
+  }
+  
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  .input:focus {
+    animation: glow 1s linear infinite;
+  }
+  
+  .navbar {
+    width: 100%;
+  
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .navLink {
+    color: #4109dc; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-size: 18px;
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+  }
+  
+  .navLink:hover {
+    color: #7e61e4;
+  }
+  

@@ -1,0 +1,71 @@
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .userTable {
+    width: 55%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .userRow {
+    background-color: #fff;
+  }
+  
+  .userData {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .navbar {
+   
+    background-color: #05a165;
+    padding: 6px 0;
+    width: 350px; 
+    margin: 0 auto 60px; 
+  }
+  
+  .navLink {
+    font-size: 28px;
+    color: rgb(247, 247, 247);
+    text-decoration:underline;
+    padding: 5px 5px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+
+  }
+  
+ 
+  button {
+    font-size: 18px;
+    background-color: #e36b6b; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #de4747; 
+  }
+  
