@@ -1,0 +1,6 @@
+.App {
+  min-height: 150vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhS6fe5GLoYVfHn9BQVGqrVEQ3unuJ4jGqSp6AQQkNg&s'); /* Set background image for the entire page */
+  background-repeat: no-repeat; /* Ensure background image is not repeated */
+  background-size: cover; /* Cover the entire background */
+}

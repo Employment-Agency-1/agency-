@@ -1,0 +1,74 @@
+
+/* the body code under is for the App do NOT MODIFY IT PLEASE */
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhS6fe5GLoYVfHn9BQVGqrVEQ3unuJ4jGqSp6AQQkNg&s'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.logo {
+  max-width: 260px; 
+  margin-bottom: 42px;
+  margin-top: -30px; 
+  margin-left: 40px; 
+}
+
+
+.sbody {
+  background-image: url('https://media3.giphy.com/media/JcKEE134BaU0Av80zf/giphy.gif?cid=6c09b952pzb4ljayp7zs5bd9o6gyxl6dqpau3bvkxmfk2pkf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s'); 
+  background-repeat: no-repeat;
+  background-size:50%; 
+  background-position: center; 
+}
+
+.homeContainer {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 40px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+  max-width: 600px; 
+  margin:  auto; 
+}
+
+
+.title {
+  font-size: 38px;
+  color: #0d8eeb; 
+  margin-bottom: 48px; 
+}
+
+.subtitle {
+  font-size: 25px;
+  color: #161cbc; 
+  margin-bottom: 30px; 
+}
+
+.text {
+  font-size: 21px; 
+  color: #1f0606; 
+  margin-bottom: 30px; 
+}
+
+.text2 {
+  font-size: 21px;
+  color: #410bcb; 
+  margin-bottom: 30px; 
+  text-decoration-line: underline;
+}
+
+.link {
+  display: inline-block;
+  background-color: #4c51bf;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
+
+.link:hover {
+  background-color: #4338ca; 
+}
