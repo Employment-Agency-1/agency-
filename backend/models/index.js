@@ -5,12 +5,12 @@ const Profile = require('./profile');
 
 User.sync();
 Company.sync();
-Profile.sync()
+Profile.sync() 
   .then(() => {
-    console.log('Profile table dropped and re-created successfully');
+    console.log('Profile table dropped and re-created successfully'); 
   })
   .catch((error) => {
-    console.error('Error dropping and re-creating Profile table:', error);
+    console.error('Error dropping and re-creating Profile table:', error);//just testing it to check for the error
   });
 
 module.exports = {

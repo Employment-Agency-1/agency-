@@ -1,0 +1,82 @@
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .navLink {
+    background-color: #4c51bf;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #4338ca;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .companyList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .companyItem {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .companyText {
+    color: #a913df;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0;
+  }
+  
+  .applyButton {
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .applyButton:hover {
+    background-color: #45a049;
+  }
+  

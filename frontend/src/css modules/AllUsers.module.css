@@ -1,0 +1,60 @@
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .userTable {
+    width: 55%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .userRow {
+    background-color: #fff;
+  }
+  
+  .userData {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .userData:first-child {
+    border-right: 1px solid #ccc; 
+  }
+  
+  .navbar {
+    background-color: #e36b6b;
+    padding: 16px 0;
+    width: 350px; 
+    margin: 0 auto; 
+  }
+  
+  .navLink {
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #de4747;
+  }
+  
